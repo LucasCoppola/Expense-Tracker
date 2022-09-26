@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;    
+}
+header{
+    font-weight: bold;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    color: #007200;
+}
+input {
+    padding: 5px;
+}
+#input-name {
+    width: 750px;
+    margin-bottom: 10px;
+}
+
+#input-amount {
+    width: 338px;
+    margin: 0 5px 10px auto;
+}
+#input-date {
+    width: 338px;
+    margin: 0 5px 10px auto;
+}
+#amount-el {
+    padding-left: 10px;
+}
+#add-btn {
+    background-color: #007200;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#table-container{
+    text-align: center;
+    position: relative;
+    left: 250px;
+    width: 820px;
+    font-weight: bolder;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+th{
+    background-color: #5e615e;
+    color: #ffffff;
+}
+tbody{
+    color: black;
+    font-weight: bolder;
+}
+.delete-btn{
+    position: fixed;
+    right: 16%;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+.delete-btn:hover{
+    background-color: black;
+    border: 1px solid #fff;
+    color: #fff;
+}
